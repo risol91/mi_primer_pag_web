@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nosifer', sans-serif;
+    
+}
+
+ol, 
+ul {
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkslateblue;
+    padding: 1em;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1.2em;
+}
+
+header nav ul li {
+    color: black;
+}
+
+header a i {
+    color: white;
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+.acerca-de {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+footer {
+    background-color: red;
+    width: 100%;
+    padding: 1em;
+    
+}
+
+.Trabajos {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+a i.fa-solid.fa-bars {
+    position: left;
+    bottom: 22px;
+    right: 39px;
+}
+
+/* MENU */
+
+#check {
+    display: none;
+ }
+
+.checkbtn {
+    font-size: 25px;
+    color: red;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+ }
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+.acerca-de {
+    width: 100%;
+}
+
+.checkbtn {
+    display: block;
+}
+
+
+}
+
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
